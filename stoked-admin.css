@@ -1,0 +1,180 @@
+/**
+ * Stoked! Admin Styles
+ * @package stoked
+ * 
+ */
+
+#stkd_visual .hidden {
+	display: none;
+}
+
+#stkd_visual .rwmb-image-select {
+	width: 100px;
+	height: auto;
+}
+
+#stkd_visual #stkd_hide_featured_switch_description em {
+	padding-left: 24px;
+}
+
+#stkd_visual .rwmb-field {
+	margin: 20px 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+#stkd_visual .rwmb-field:last-child {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	border-bottom: none;
+}
+
+#stkd_visual .rwmb-label {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+#stkd_post_narrow_description {
+	
+}
+
+#mashsb_position {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.mashsb-rwmb-validate_og-wrapper:before {
+	content: "Please use Stoked! settings for this"!important;
+	position: absolute;
+	margin-left: -248px;
+	margin-top: 37px;
+	font-size: 13px;
+	font-style: italic;
+	color: #666;
+}
+
+.stkd_fb-icon-items {
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.stkd_fb-icon-item {
+	vertical-align: top;
+	font-size: 14px;
+	display: inline-block;
+	margin: 0 5px;
+	padding: 5px 5px;
+	text-align: center;
+}
+
+.stkd_fb-icon-item > label > span {
+	display: block;
+	margin: 0 auto 0.5em;
+}
+
+.stkd_fb-icon-items {
+	margin: 0 0 20px;
+	list-style: none;
+	font-size: 0;
+}
+
+.stkd_fb-icon-item {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 5px 5px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.stkd_fb-feelback {
+	display: inline-block;
+}
+
+.stkd_fb-feelback-icon {
+	display: table;
+}
+
+.stkd_fb-feelback-icon > img {
+	display: block;
+}
+
+.stkd_fb-feelback-icon-text {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+
+.stkd_fb-feelback-icon-with-text .stkd_fb-feelback-icon-text {
+	display: block;
+}
+
+.stkd_fb-feelback-icon-with-text img {
+	visibility: hidden;
+}
+
+.stkd_fb-feelback-label {
+	display: block;
+}
+
+.stkd_fb-feelback-icon-with-text {
+	position: relative;
+	border-radius: 50%;
+}
+
+.stkd_fb-feelback-icon-with-text .stkd_fb-feelback-icon {
+	visibility: hidden;
+}
+
+/* Preview */
+.stkd_fb-feelback-icon-preview {
+	min-height: 200px;
+}
+
+.stkd_fb-feelback-icon-preview .stkd_fb-feelback-icon {
+	margin: 0;
+	-webkit-transform-origin: top left;
+	transform-origin: top left;
+	-webkit-transform: scale(5);
+	transform: scale(5);
+}
+
+/* KIRKI */
+#customize-info {
+	margin-bottom: 0!important;
+}
+#customize-info > .accordion-section-title {
+	background-color: #f12f51!important;
+	padding: 0;
+}
+.iris-alpha-slider {
+	margin-left: 6px!important;
+}
+
+.customize-control-kirki-switch .switch label,
+.customize-control-kirki-switch .switch {
+	margin-bottom: 0!important;
+}
+
+.customize-section-description-container+#customize-control-custom_css:last-child {
+	margin-left: inherit;
+	width: 100%;
+	margin-bottom: inherit;
+}
+
+.tooltip-wrapper .tooltip-content {
+	z-index: 9999999!important; /*fixing kirki bug*/
+}
+
+/* WP-SCSS */
+tr[data-slug="wp-scss"] .row-actions.visible span:first-child {
+  display: none;
+}
+
+/* Importer */
+.ocdi__intro-notice {
+	display: none;
+}
